@@ -92,77 +92,143 @@
                 <div class="preferences-inner">
                     <div class="preferences-item">
                         <div class="preconnect-menu">
-                            <span class="border">01</span><h3>Preferences</h3>
-                            <span class="border">02</span><h3>Bean Type</h3>
-                            <span class="border">03</span><h3>Quantity</h3>
-                            <span class="border">04</span><h3>Grind Optionx</h3>
+                            <span class="border">01</span><h3 class="border">Preferences</h3>
+                            <span class="border">02</span><h3 class="border">Bean Type</h3>
+                            <span class="border">03</span><h3 class="border">Quantity</h3>
+                            <span class="border">04</span><h3 class="border">Grind Optionx</h3>
                             <span class="color__additions">05</span><h3 class="color__addition">Deliveries</h3>
                         </div>
-                        <h2>How do you drink your coffee?</h2>
-                        <div class="capsule">
-                            <h3>Capsule</h3>
-                            <p>Compatible with Nespresso systems and similar brewers</p>
+                              <div class="form-wrapper">
+                                  <h2>How do you drink your coffee?</h2>
+                                <form action="/" method="post">
+                                  <div class="form__field">
+                                    <input class="form-radio visually-hidden" type="radio" value="Capsule" name="coffe-type" id="input-capsule">
+                                    <label class="form-label" for="input-espresso">
+                                      <h3>Capsule</h3>
+                                      <p>Compatible with Nespresso systems and similar brewers</p>
+                                    </label>
+                                  </div>
+                                  <div class="form__field">
+                                    <input class="form-radio visually-hidden" type="radio" value="filter" name="coffe-type" id="input-filter">
+                                    <label class="form-label" for="input-filter">
+                                      <h3>Filter</h3>
+                                      <p>For pour over or drip methods like Aeropress, Chemex, and V60</p>
+                                    </label>
+                                  </div>
+                                  <div class="form__field">
+                                    <input class="form-radio visually-hidden" type="radio" value="espresso" name="coffe-type" id="input-espresso">
+                                    <label class="form-label" for="input-espresso">
+                                      <h3>Espresso</h3>
+                                      <p>Dense and finely ground beans for an intense, flavorful experience</p>
+                                    </label>
+                                  </div>
+                                </form>
+                              </div>
+                              <div class="form-wrapper">
+                                <h2>What type of coffee?</h2>
+                              <form action="/" method="post">
+                                <div class="form__field">
+                                  <input class="form-radio visually-hidden" type="radio" value="Single-Origin" name="coffe-type" id="input-single ">
+                                  <label class="form-label" for="input-single">
+                                    <h3>Single Origin</h3>
+                                    <p>Distinct, high quality coffee from a specific family-owned farm</p>
+                                  </label>
+                                </div>
+                                <div class="form__field">
+                                  <input class="form-radio visually-hidden" type="radio" value="decaf" name="coffe-type" id="input-decaf">
+                                  <label class="form-label" for="input-decaf">
+                                    <h3>Decaf</h3>
+                                    <p>Just like regular coffee, except the caffeine has been removed</p>
+                                  </label>
+                                </div>
+                                <div class="form__field">
+                                  <input class="form-radio visually-hidden" type="radio" value="blended" name="coffe-type" id="input-blended">
+                                  <label class="form-label" for="input-blended">
+                                    <h3>Blended</h3>
+                                    <p>Combination of two or three dark roasted beans of organic coffees</p>
+                                  </label>
+                                </div>
+                              </form>
+                            </div>
+                            <div class="form-wrapper">
+                              <h2>How much would you like?</h2>
+                            <form action="/" method="post">
+                              <div class="form__field">
+                                <input class="form-radio visually-hidden" type="radio" value="would" name="coffe-type" id="input-would">
+                                <label class="form-label" for="input-espresso">
+                                  <h3>250g</h3>
+                                  <p>Perfect for the solo drinker. Yields about 12 delicious cups.</p>
+                                </label>
+                              </div>
+                              <div class="form__field">
+                                <input class="form-radio visually-hidden" type="radio" value="much" name="coffe-type" id="input-much">
+                                <label class="form-label" for="input-much">
+                                  <h3>500g</h3>
+                                  <p>Perfect option for a couple. Yields about 40 delectable cups.</p>
+                                </label>
+                              </div>
+                              <div class="form__field">
+                                <input class="form-radio visually-hidden" type="radio" value="like" name="coffe-type" id="input-like">
+                                <label class="form-label" for="input-like">
+                                  <h3>1000g</h3>
+                                  <p>Perfect for offices and events. Yields about 90 delightful cups.</p>
+                                </label>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="form-wrapper">
+                            <h2>Want us to grind them?</h2>
+                          <form action="/" method="post">
+                            <div class="form__field">
+                              <input class="form-radio visually-hidden" type="radio" value="wholebean" name="coffe-type" id="input-wholebean">
+                              <label class="form-label" for="input-wholebean">
+                                <h3>Wholebean</h3>
+                                <p>Best choice if you cherish the full sensory experience</p>
+                              </label>
+                            </div>
+                            <div class="form__field">
+                              <input class="form-radio visually-hidden" type="radio" value="filter" name="coffe-type" id="input-filter">
+                              <label class="form-label" for="input-filter">
+                                <h3>Filter</h3>
+                                <p>For drip or pour-over coffee methods such as V60 or Aeropress</p>
+                              </label>
+                            </div>
+                            <div class="form__field">
+                              <input class="form-radio visually-hidden" type="radio" value=">Cafetiére" name="coffe-type" id="input">Cafetiére">
+                              <label class="form-label" for="input">Cafetiére">
+                                <h3">Cafetiére</h3>
+                                <p>Course ground beans specially suited for french press coffee</p>
+                              </label>
+                            </div>
+                          </form>
                         </div>
-                        <div class="filter">
-                            <h3>Filter</h3>
-                            <p>For pour over or drip methods like Aeropress, Chemex, and V60</p>
-                        </div>
-                        <div class="espresso">
-                            <h3>Espresso</h3>
-                            <p>Dense and finely ground beans for an intense, flavorful experience</p>
-                        </div>
-                        <h2>What type of coffee?</h2>
-                        <div class="single Origin">
-                            <h3>Single Origin</h3>
-                            <p>Distinct, high quality coffee from a specific family-owned farm</p>
-                        </div>
-                        <div class="decaf">
-                            <h3>Decaf</h3>
-                            <p>Just like regular coffee, except the caffeine has been removed</p>
-                        </div><div class="blended">
-                            <h3>Blended</h3>
-                            <p>Combination of two or three dark roasted beans of organic coffees</p>
-                        </div>
-                        <h2>How much would you like?</h2>
-                        <div class="250g">
-                            <h3>250g</h3>
-                            <p>Perfect for the solo drinker. Yields about 12 delicious cups.</p>
-                        </div>
-                        <div class="500g">
-                            <h3>500g </h3>
-                            <p>Perfect option for a couple. Yields about 40 delectable cups.</p>
-                        </div>
-                        <div class="1000g">
-                            <h3>1000g</h3>
-                            <p>Perfect for offices and events. Yields about 90 delightful cups.</p>
-                        </div>
-                        <h2>Want us to grind them?</h2>
-                        <div class="wholebean">
-                            <h3>Wholebean</h3>
-                            <p>Best choice if you cherish the full sensory experience</p>
-                        </div>
-                        <div class="filter filter__second">
-                            <h3>Filter</h3>
-                            <p>For drip or pour-over coffee methods such as V60 or Aeropress</p>
-                        </div>
-                        <div class="cafetiére">
-                            <h3>Cafetiére</h3>
-                            <p>Course ground beans specially suited for french press coffee</p>
-                        </div>
-                        <h2>How often should we deliver?</h2>
-                        <div class="every week">
-                            <h3>Every week</h3>
-                            <p>$7.20 per shipment. Includes free first-class shipping.</p>
-                        </div>
-                        <div class="every 2 weeks">
-                            <h3>Every 2 weeks</h3>
-                            <p>$9.60 per shipment. Includes free priority shipping.</p>
-                        </div>
-                        <div class="every month">
-                            <h3>Every month</h3>
-                            <p>$12.00 per shipment. Includes free priority shipping.</p>
-                        </div>
-                    </div>
+                        <div class="form-wrapper">
+                          <h2>How often should we deliver?</h2>
+                        <form action="/" method="post">
+                          <div class="form__field">
+                            <input class="form-radio visually-hidden" type="radio" value="Every-week" name="coffe-type" id="input-Every-week">
+                            <label class="form-label" for="input-Every-week">
+                              <h3>Every week</h3>
+                              <p>$7.20 per shipment. Includes free first-class shipping.</p>
+                            </label>
+                          </div>
+                          <div class="form__field">
+                            <input class="form-radio visually-hidden" type="radio" value="every-2-weeks" name="coffe-type" id="input-every-2-weeks">
+                            <label class="form-label" for="input-every-2-weeks">
+                              <h3>Every 2 weeks</h3>
+                              <p>$9.60 per shipment. Includes free priority shipping.</p>
+                            </label>
+                          </div>
+                          <div class="form__field">
+                            <input class="form-radio visually-hidden" type="radio" value="every-month" name="coffe-type" id="input-every-month">
+                            <label class="form-label" for="input-every-month">
+                              <h3>Every month</h3>
+                              <p>Dense and finely ground beans for an intense, flavorful experience</p>
+                            </label>
+                          </div>
+                        </form>
+                      </div>
+                   </div>  
                 </div>
             </div>
           </section>

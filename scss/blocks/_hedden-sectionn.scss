@@ -1,0 +1,59 @@
+.hidden-inner {
+    margin-top: 60px;
+    background-image: url(../img/section-top.png);
+    background-repeat: no-repeat;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 598px;
+    border-radius: 15px;
+  }
+  
+  .hidden-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .hidden-item {
+    max-width: 600px;
+    padding: 70px;
+  }
+  .hidden-item h2 {
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #fefcf7;
+    margin-bottom: 32px;
+  }
+  .hidden-item p {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fefcf7;
+    opacity: 0.8;
+    margin-bottom: 56px;
+  }
+  .btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: transparent;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    color: black;
+  }
+  .btn--primary {
+    background-color: #0e8784;
+    color: #fefcf7;
+  }
