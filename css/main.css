@@ -273,6 +273,23 @@ p {
   color: #fefcf7;
 }
 
+.preconnect-menu {
+  margin-top: 35px;
+}
+.preconnect-menu h3 {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333D4B;
+  opacity: 0.4;
+  margin-bottom: 55px;
+  border-bottom: 1px solid #83888F;
+  width: 225px;
+  height: 1px;
+}
+
 .form-wrapper h2 {
   font-family: "Fraunces";
   font-style: normal;
@@ -280,6 +297,45 @@ p {
   font-size: 40px;
   line-height: 48px;
   color: #83888F;
+}
+
+.form__field--item {
+  display: flex;
+}
+
+.form__field {
+  padding: 13px;
+}
+
+.form-label {
+  background-color: #F4F1EB;
+  border-radius: 8px;
+  padding: 32px 28px;
+  display: block;
+  color: black;
+  width: 230px;
+  height: 250px;
+}
+input[type=radio]:checked + .form-label {
+  background-color: #0E8784;
+  color: white;
+}
+.form-label h3 {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333D4B;
+  margin-bottom: 20px;
+}
+.form-label p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
 }
 
 .works-inner h2 {
@@ -346,10 +402,62 @@ p {
 }
 
 .circle {
-  background: #fefcf7;
+  background: #333D4B;
   border: 1px solid #0e8784;
-  width: 31px;
+  width: 41px;
   height: 31px;
   border-radius: 50%;
   background-color: #fefcf7;
+}
+
+.works__pick--color {
+  margin-top: 130px;
+  background-color: #333D4B;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.circle--background {
+  background-color: #333D4B;
+}
+
+.works__niner h3 {
+  color: white;
+}
+.works__niner p {
+  color: white;
+}
+
+.create-inner {
+  background-image: url(./../img/create-a-plane.png);
+  width: 100%;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  padding: 100px;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+.create-item h2 {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: white;
+  margin-bottom: 30px;
+}
+.create-item p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #FEFCF7;
+  line-height: 26px;
+  opacity: 0.8;
+}
+
+.create-item {
+  max-width: 430px;
 }/*# sourceMappingURL=main.css.map */

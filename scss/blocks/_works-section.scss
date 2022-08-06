@@ -64,11 +64,28 @@
     background-color: #fdd6ba;
   }
   .circle {
-    background: #fefcf7;
+    background: #333D4B;  
     border: 1px solid #0e8784;
-    width: 31px;
+    width: 41px;
     height: 31px;
     border-radius: 50%;
     background-color: #fefcf7;
   }
-  
+  .works__pick--color{
+    margin-top: 130px;
+    background-color: #333D4B;
+    border-radius: 10px;
+    padding: 30px;
+  }
+  .circle--background{
+    background-color: #333D4B;
+  }
+  .works__niner{
+      
+    h3{
+      color: white;
+    }
+    p{
+      color: white;
+    }
+  }
