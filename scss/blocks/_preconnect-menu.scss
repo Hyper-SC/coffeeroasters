@@ -16,6 +16,8 @@
 }
 .order {
     background-color: #2C343E;
+    width:  475px;
+    height: 105px;
     h3{
         font-family: 'Barlow';
         font-style: normal;
@@ -25,5 +27,13 @@
         text-transform: uppercase;
         color: #FFFFFF;
         opacity: 0.5;
+    }
+    p{
+        font-family: 'Fraunces 9pt';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 40px;
+        color: #FFFFFF;
     }
 }

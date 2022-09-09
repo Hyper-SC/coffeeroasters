@@ -7,6 +7,12 @@
     width: 100%;
     height: 598px;
     border-radius: 15px;
+
+    @media (max-width:$tab) {
+      width: 100%;
+      height: 598px;
+      
+    }
   }
   
   .hidden-inner {
@@ -20,6 +26,10 @@
   .hidden-item {
     max-width: 600px;
     padding: 70px;
+    
+    @media (max-width:$tab) {
+      max-width: 510px;
+    }
   }
   .hidden-item h2 {
     font-family: "Fraunces 9pt";
@@ -29,6 +39,14 @@
     line-height: 72px;
     color: #fefcf7;
     margin-bottom: 32px;
+
+    @media (max-width:$tab) {
+      font-family: 'Fraunces 9pt';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 48px;
+      line-height: 48px;
+    }
   }
   .hidden-item p {
     font-family: "Barlow";
@@ -39,6 +57,14 @@
     color: #fefcf7;
     opacity: 0.8;
     margin-bottom: 56px;
+
+    @media (max-width:$tab) {
+      font-family: 'Barlow';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+    }
   }
   .btn {
     display: inline-block;
